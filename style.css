@@ -1,0 +1,543 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+body {
+  background: #0f172a;
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #020617;
+  border-bottom: 1px solid #1e293b;
+}
+
+.navbar button {
+  margin-left: 10px;
+  padding: 8px 15px;
+  border: none;
+  background: #6366f1;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.navbar button:hover {
+  background: #4f46e5;
+}
+
+/* HERO GLOBAL (fix principal) */
+.hero {
+  min-height: 100vh; /* plein écran */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 12px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* HERO 1 */
+.hero1 {
+  background: url("images/Gemini_Generated_Image_q44ngaq44ngaq44n.png") center/cover no-repeat;
+}
+
+/* HERO 2 */
+.hero2 {
+  min-height: 100vh;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHnCNJHveT2MscEcdXX3jO0le-va80H-4tlg&s") center/cover no-repeat;
+}
+
+/* HERO 3 */
+.hero3 {
+  min-height: 100vh;
+  background: url("https://ik.imagekit.io/u9lhfdsuy/IntrCity%20Launches%20SmartBus.AQI%20India_s%20First%20Fleet%20of%20Air-Purified%20Intercity%20Buses.webp") center/cover no-repeat;
+  animation: fadeIn 1s ease;
+}
+
+/* HERO */
+.hero1 {
+  height: 60vh;
+  background: url("images/Gemini_Generated_Image_q44ngaq44ngaq44n.png") center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 40px;
+  background: rgba(0,0,0,0.6);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* MAIN */
+#app {
+  padding: 30px;
+}
+
+/* CARD */
+.card {
+  background: #020617;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #1e293b;
+}
+
+/* FORM */
+input, select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid #334155;
+  background: #0f172a;
+  color: white;
+}
+
+button {
+  margin-top: 10px;
+  padding: 12px;
+  background: #6366f1;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4f46e5;
+}
+
+/* SEATS */
+.seats {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.seat {
+  padding: 10px;
+  background: #1e293b;
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.seat.selected {
+  background: #22c55e;
+}
+
+/* MAP */
+#map {
+  height: 250px;
+  margin-top: 10px;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 10px;
+  border-bottom: 1px solid #334155;
+}
+
+body {
+  margin: 0;
+  font-family: Poppins;
+  background: #f8fafc;
+  color: #1e293b;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.navbar h2 {
+  color: #4f46e5;
+}
+
+.navbar button {
+  margin-left: 10px;
+  padding: 8px 15px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.navbar button:hover {
+  color: #4f46e5;
+}
+
+/* MAIN */
+#app {
+  padding: 30px;
+}
+
+/* HERO */
+.hero2 {
+  background: url("https://pbs.twimg.com/media/HGGw6fja0AETish.jpg") center/cover;
+  color: white;
+  padding: 80px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.hero p {
+  margin: 15px 0;
+}
+
+/* CARDS */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* INPUT */
+input, select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+/* BUTTON */
+button {
+  padding: 10px 15px;
+  margin-top: 10px;
+  background: #4f46e5;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4338ca;
+}
+
+/* SEATS */
+.seats {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.seat {
+  padding: 10px;
+  background: #e2e8f0;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.seat.selected {
+  background: #22c55e;
+  color: white;
+}
+
+/* MAP */
+#map {
+  height: 250px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.hero3 {
+  background: url("https://ik.imagekit.io/u9lhfdsuy/IntrCity%20Launches%20SmartBus.AQI%20India_s%20First%20Fleet%20of%20Air-Purified%20Intercity%20Buses.webp") center/cover;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+  border-radius: 10px;
+  animation: fadeIn 1s ease;
+}
+
+.destinations {
+  margin-top: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 20px;
+}
+
+.place {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.place img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.place:hover {
+  transform: scale(1.05);
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+  from {opacity:0; transform: translateY(20px);}
+  to {opacity:1; transform: translateY(0);}
+}
+
+.ticket {
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  text-align: center;
+  animation: fadeIn 0.5s ease;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  #app {
+    padding: 15px;
+  }
+
+  .hero {
+    padding: 50px 10px;
+  }
+}
+
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.hero-buttons button {
+  margin: 5px;
+}
+
+.secondary {
+  background: white;
+  color: #4f46e5;
+}
+
+.secondary:hover {
+  background: #e2e8f0;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #111;
+  color: white;
+}
+
+#nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-user span {
+  color: white;
+  font-weight: bold;
+}
+
+#nav-actions button {
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  background: #ffcc00;
+  color: black;
+  border-radius: 5px;
+}
+
+#nav-actions button:hover {
+  background: #ffaa00;
+}
+
+/* DROPDOWN CONTAINER */
+.nav-user {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+/* BUTTON STYLE */
+.nav-user .profile-btn {
+  background: #4f46e5;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: none;
+}
+
+/* DROPDOWN MENU */
+.dropdown {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  background: white;
+  color: black;
+  border-radius: 10px;
+  width: 180px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  display: none;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+/* SHOW DROPDOWN */
+.dropdown.show {
+  display: flex;
+}
+
+/* ITEMS */
+.dropdown button {
+  background: none;
+  border: none;
+  padding: 12px;
+  text-align: left;
+  cursor: pointer;
+  width: 100%;
+}
+
+.dropdown button:hover {
+  background: #f1f5f9;
+}
+
+.profile-card {
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+  animation: fadeIn 0.4s ease;
+}
+
+.profile-info p {
+  padding: 10px;
+  background: #0f172a;
+  border-radius: 8px;
+  margin-top: 10px;
+  color: white;
+}
+
+
+
+.profile-header {
+  text-align: center;
+}
+
+.avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: #4f46e5;
+  color: white;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  overflow: hidden;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nav-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #4f46e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dropdown {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  background: white;
+  display: none;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.dropdown.show {
+  display: flex;
+}
+
+.hero {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 12px;
+  color: white;
+  margin-bottom: 20px;
+}
+
